@@ -1,0 +1,17 @@
+BROKER IS A MODULE THAT IS THE INTERMEDIATE BETWEEN FRONT-END AND BACK-END
+--------------------------------------------------------------------------
+this is the middleman who manages calls from front-end to back-end and from
+back-end to front-end
+
+    MS :
+        -> login
+            API
+            ---
+            ->  login user and return the userUuid that will be used to retrieve the user data from Employee/student
+                to publish on user page
+            ->  Get user login details by sen
+
+        -> student
+            -This module manages students registration and parents registration.
+        -> absence
+            -this module manages absences of users
